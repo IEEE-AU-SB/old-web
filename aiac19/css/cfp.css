@@ -1,0 +1,234 @@
+.page-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 450px auto;
+}
+
+.aboutus-photo {
+  position: relative;
+}
+
+.aboutus-photo-photo {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.aboutus-photo-photo img {
+  width: 100%;
+  height: 450px;
+}
+
+.aboutus-photo-text {
+  position: absolute;
+  top: 35%;
+  left: 31.5%;
+}
+
+.aboutus-photo-text h4 {
+  font-weight: bolder;
+  font-size: 60px;
+  padding: 0px;
+  margin: 10px 0px 0px 0px;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+#aboutuscontainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.heading a {
+  padding: 0px;
+  margin: 0px;
+  color: #7d1619;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.about-photo {
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 31.5%;
+  margin-right: 32%;
+  border: 1px solid black;
+}
+
+.about-photo img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 322px) {
+  .page-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 400px auto;
+  }
+  .about-us-navbar {
+    display: none;
+  }
+  .aboutus-photo-photo img {
+    width: 100%;
+    height: 400px;
+  }
+  .aboutus-photo-text {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+  }
+  .aboutus-photo-text h4 {
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    font-family: "Lato", sans-serif;
+  }
+
+  #aboutuscontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .about-photo {
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid black;
+  }
+}
+
+@media screen and (max-width: 378px) and (min-width: 323px) {
+  .page-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 400px auto;
+  }
+  .about-us-navbar {
+    display: none;
+  }
+  .aboutus-photo-photo img {
+    width: 100%;
+    height: 400px;
+  }
+  .aboutus-photo-text {
+    position: absolute;
+    top: 35%;
+    left: 19%;
+  }
+
+  .aboutus-photo-text h4 {
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    font-family: "Lato", sans-serif;
+  }
+  #aboutuscontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  .about-photo {
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid black;
+  }
+}
+
+@media screen and (max-width: 430px) and (min-width: 379px) {
+  .page-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 400px auto;
+  }
+  .about-us-navbar {
+    display: none;
+  }
+  .aboutus-photo-photo img {
+    width: 100%;
+    height: 400px;
+  }
+  .aboutus-photo-text {
+    position: absolute;
+    top: 35%;
+    left: 22.5%;
+  }
+  .aboutus-photo-text h4 {
+    font-weight: bolder;
+    font-size: 45px;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    font-family: "Lato", sans-serif;
+  }
+  #aboutuscontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  .about-photo {
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid black;
+  }
+}
+
+@media screen and (max-width: 769px) and (min-width: 431px) {
+  .page-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 400px auto;
+  }
+  .about-us-navbar {
+    display: none;
+  }
+  .aboutus-photo-photo img {
+    width: 100%;
+    height: 400px;
+  }
+  .aboutus-photo-text {
+    position: absolute;
+    top: 35%;
+    left: 21%;
+  }
+  .aboutus-photo-text h4 {
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    font-family: "Lato", sans-serif;
+  }
+  #aboutuscontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  .about-photo {
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid black;
+  }
+}
